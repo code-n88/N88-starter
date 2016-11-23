@@ -15,12 +15,11 @@
 //==========================================================================
 
 //GRID
-@mixin grid($negative-gutter: -$horizontal-space-small) {
+=grid($negative-gutter: -$horizontal-space-small)
   display: flex;
   flex-flow: row wrap;
   margin-left: $negative-gutter;
   margin-right: $negative-gutter;
-}
 
 //COL
 =col ( $col,$width: column-width($col), $grid-gutter: $grid-gutter, $margin-left: $grid-gutter/2, $margin-right: $grid-gutter/2, $margin: true, $calc: true )
